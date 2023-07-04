@@ -1,0 +1,748 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "countryName": "Australia",
+      "states": [
+        {
+          "id": 1,
+          "name": "New South Wales ",
+          "cities": [
+            "Sydney",
+            "Newcastle",
+            "Wollongong",
+            "CentralCoast",
+            "Port Macquarie",
+            "Tamworth"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Victoria",
+          "cities": [
+            "Melbourne",
+            "Geelong",
+            "Ballarat",
+            "Bendigo",
+            "Mornington Peninsula"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Queensland",
+          "cities": [
+            "Brisbane",
+            "Gold Coast",
+            "Sunshine Coast",
+            "Cairns",
+            "Townsville",
+            "Toowoomba"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "South Australia",
+          "cities": [
+            "Adelaide",
+            "Mount Gambier",
+            "Port Augusta",
+            "Port Lincoln",
+            "Murray Bridge"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Western Australia",
+          "cities": [
+            "Perth",
+            "Fremantle",
+            "Mandurah",
+            "Bunbury",
+            "Kalgoorlie-Boulder",
+            "Albany"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Tasmania",
+          "cities": [
+            "Hobart",
+            "Launceston",
+            "Devonport",
+            "Burnie",
+            "Port Arthur"
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Australian Capital Territory",
+          "cities": ["Canberra"]
+        },
+        {
+          "id": 8,
+          "name": "Northern Territory",
+          "cities": ["Darwin", "Alice Springs", "Katherine", "Palmerston"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "countryName": "India",
+      "states": [
+        {
+          "id": 1,
+          "name": "Andhra Pradesh",
+          "cities": [
+            "Hyderabad",
+            "Visakhapatnam",
+            "Vijayawada",
+            "Guntur",
+            "Nellore"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Arunachal Pradesh",
+          "cities": ["Itanagar", "Naharlagun", "Pasighat", "Tawang", "Ziro"]
+        },
+        {
+          "id": 3,
+          "name": "Assam",
+          "cities": ["Guwahati", "Silchar", "Dibrugarh", "Jorhat", "Tezpur"]
+        },
+        {
+          "id": 4,
+          "name": "Bihar",
+          "cities": ["Patna", "Gaya", "Bhagalpur", "Muzaffarpur", "Darbhanga"]
+        },
+        {
+          "id": 5,
+          "name": "Chhattisgarh",
+          "cities": ["Raipur", "Bhilai", "Bilaspur", "Korba", "Durg"]
+        },
+        {
+          "id": 6,
+          "name": "Goa",
+          "cities": ["Panaji", "Vasco da Gama", "Margao", "Mapusa", "Ponda"]
+        },
+        {
+          "id": 7,
+          "name": "Gujarat",
+          "cities": ["Ahmedabad", "Surat", "Vadodara", "Rajkot", "Gandhinagar"]
+        },
+        {
+          "id": 8,
+          "name": "Haryana",
+          "cities": ["Chandigarh", "Faridabad", "Gurugram", "Hisar", "Panipat"]
+        },
+        {
+          "id": 9,
+          "name": "Himachal Pradesh",
+          "cities": ["Shimla", "Mandi", "Solan", "Dharamshala", "Kullu"]
+        },
+        {
+          "id": 10,
+          "name": "Jharkhand",
+          "cities": [
+            "Ranchi",
+            "Jamshedpur",
+            "Dhanbad",
+            "Bokaro Steel City",
+            "Hazaribagh"
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Karnataka",
+          "cities": [
+            "Bengaluru",
+            "Mysuru",
+            "Hubli-Dharwad",
+            "Belagavi",
+            "Mangaluru"
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Kerala",
+          "cities": [
+            "Thiruvananthapuram",
+            "Kochi",
+            "Kozhikode",
+            "Thrissur",
+            "Kollam"
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Madhya Pradesh",
+          "cities": ["Bhopal", "Indore", "Jabalpur", "Gwalior", "Ujjain"]
+        },
+        {
+          "id": 14,
+          "name": "Maharashtra",
+          "cities": ["Mumbai", "Pune", "Nagpur", "Nashik", "Aurangabad"]
+        },
+        {
+          "id": 15,
+          "name": "Manipur",
+          "cities": [
+            "Imphal",
+            "Thoubal",
+            "Bishnupur",
+            "Churachandpur",
+            "Ukhrul"
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Meghalaya",
+          "cities": ["Shillong", "Tura", "Nongstoin", "Jowai", "Williamnagar"]
+        },
+        {
+          "id": 17,
+          "name": "Mizoram",
+          "cities": ["Aizawl", "Lunglei", "Champhai", "Serchhip", "Kolasib"]
+        },
+        {
+          "id": 18,
+          "name": "Nagaland",
+          "cities": ["Kohima", "Dimapur", "Mokokchung", "Tuensang", "Wokha"]
+        },
+        {
+          "id": 19,
+          "name": "Odisha",
+          "cities": ["Bhubaneswar", "Cuttack", "Rourkela", "Puri", "Sambalpur"]
+        },
+        {
+          "id": 20,
+          "name": "Punjab",
+          "cities": [
+            "Chandigarh",
+            "Ludhiana",
+            "Amritsar",
+            "Jalandhar",
+            "Patiala"
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Rajasthan",
+          "cities": ["Jaipur", "Jodhpur", "Udaipur", "Ajmer", "Kota"]
+        },
+        {
+          "id": 22,
+          "name": "Sikkim",
+          "cities": ["Gangtok", "Namchi", "Gyalshing", "Ravangla", "Singtam"]
+        },
+        {
+          "id": 23,
+          "name": "Tamil Nadu",
+          "cities": [
+            "Chennai",
+            "Coimbatore",
+            "Madurai",
+            "Tiruchirappalli",
+            "Salem"
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Telangana",
+          "cities": [
+            "Hyderabad",
+            "Warangal",
+            "Nizamabad",
+            "Karimnagar",
+            "Ramagundam"
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Tripura",
+          "cities": [
+            "Agartala",
+            "Udaipur",
+            "Dharmanagar",
+            "Kailashahar",
+            "Belonia"
+          ]
+        },
+        {
+          "id": 26,
+          "name": "Uttar Pradesh",
+          "cities": ["Lucknow", "Kanpur", "Varanasi", "Agra", "Prayagraj"]
+        },
+        {
+          "id": 27,
+          "name": "Uttarakhand",
+          "cities": ["Dehradun", "Haridwar", "Roorkee", "Haldwani", "Nainital"]
+        },
+        {
+          "id": 28,
+          "name": "West Bengal",
+          "cities": ["Kolkata", "Howrah", "Durgapur", "Asansol", "Siliguri"]
+        },
+        {
+          "id": 29,
+          "name": "Jammu and Kashmir",
+          "cities": ["Srinagar", "Jammu", "Anantnag", "Baramulla", "Kathua"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "countryName": "United States",
+      "states": [
+        {
+          "id": 1,
+          "name": "California",
+          "cities": [
+            "Los Angeles",
+            "San Francisco",
+            "San Diego",
+            "Sacramento",
+            "San Jose"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Texas",
+          "cities": ["Houston", "Dallas", "Austin", "San Antonio", "Fort Worth"]
+        },
+        {
+          "id": 3,
+          "name": "Florida",
+          "cities": [
+            "Miami",
+            "Orlando",
+            "Tampa",
+            "Jacksonville",
+            "Fort Lauderdale"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "New York",
+          "cities": [
+            "New York City",
+            "Buffalo",
+            "Rochester",
+            "Syracuse",
+            "Albany"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Illinois",
+          "cities": ["Chicago", "Aurora", "Rockford", "Naperville", "Peoria"]
+        },
+        {
+          "id": 6,
+          "name": "Pennsylvania",
+          "cities": [
+            "Philadelphia",
+            "Pittsburgh",
+            "Allentown",
+            "Erie",
+            "Reading"
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Ohio",
+          "cities": ["Columbus", "Cleveland", "Cincinnati", "Toledo", "Akron"]
+        },
+        {
+          "id": 8,
+          "name": "Georgia",
+          "cities": ["Atlanta", "Savannah", "Augusta", "Athens", "Columbus"]
+        },
+        {
+          "id": 9,
+          "name": "North Carolina",
+          "cities": [
+            "Charlotte",
+            "Raleigh",
+            "Greensboro",
+            "Durham",
+            "Winston-Salem"
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Michigan",
+          "cities": ["Detroit", "Grand Rapids", "Lansing", "Ann Arbor", "Flint"]
+        },
+        {
+          "id": 11,
+          "name": "New Jersey",
+          "cities": [
+            "Newark",
+            "Jersey City",
+            "Paterson",
+            "Elizabeth",
+            "Trenton"
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Virginia",
+          "cities": [
+            "Virginia Beach",
+            "Norfolk",
+            "Chesapeake",
+            "Richmond",
+            "Alexandria"
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Washington",
+          "cities": ["Seattle", "Spokane", "Tacoma", "Vancouver", "Bellevue"]
+        },
+        {
+          "id": 14,
+          "name": "Arizona",
+          "cities": ["Phoenix", "Tucson", "Mesa", "Chandler", "Glendale"]
+        },
+        {
+          "id": 15,
+          "name": "Massachusetts",
+          "cities": [
+            "Boston",
+            "Worcester",
+            "Springfield",
+            "Cambridge",
+            "Lowell"
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Tennessee",
+          "cities": [
+            "Nashville",
+            "Memphis",
+            "Knoxville",
+            "Chattanooga",
+            "Clarksville"
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Indiana",
+          "cities": [
+            "Indianapolis",
+            "Fort Wayne",
+            "Evansville",
+            "South Bend",
+            "Carmel"
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Missouri",
+          "cities": [
+            "Kansas City",
+            "St. Louis",
+            "Springfield",
+            "Columbia",
+            "Independence"
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Maryland",
+          "cities": [
+            "Baltimore",
+            "Columbia",
+            "Silver Spring",
+            "Frederick",
+            "Gaithersburg"
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Wisconsin",
+          "cities": ["Milwaukee", "Madison", "Green Bay", "Kenosha", "Racine"]
+        },
+        {
+          "id": 21,
+          "name": "Minnesota",
+          "cities": [
+            "Minneapolis",
+            "St. Paul",
+            "Rochester",
+            "Duluth",
+            "Bloomington"
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Colorado",
+          "cities": [
+            "Denver",
+            "Colorado Springs",
+            "Aurora",
+            "Fort Collins",
+            "Lakewood"
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Alabama",
+          "cities": [
+            "Birmingham",
+            "Montgomery",
+            "Mobile",
+            "Huntsville",
+            "Tuscaloosa"
+          ]
+        },
+        {
+          "id": 24,
+          "name": "South Carolina",
+          "cities": [
+            "Columbia",
+            "Charleston",
+            "North Charleston",
+            "Mount Pleasant",
+            "Rock Hill"
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Louisiana",
+          "cities": [
+            "New Orleans",
+            "Baton Rouge",
+            "Shreveport",
+            "Lafayette",
+            "Lake Charles"
+          ]
+        },
+        {
+          "id": 26,
+          "name": "Kentucky",
+          "cities": [
+            "Louisville",
+            "Lexington",
+            "Bowling Green",
+            "Owensboro",
+            "Covington"
+          ]
+        },
+        {
+          "id": 27,
+          "name": "North Dakota",
+          "cities": ["Fargo", "Bismarck", "Grand Forks", "Minot", "West Fargo"]
+        },
+        {
+          "id": 28,
+          "name": "Oklahoma",
+          "cities": [
+            "Oklahoma City",
+            "Tulsa",
+            "Norman",
+            "Broken Arrow",
+            "Lawton"
+          ]
+        },
+        {
+          "id": 29,
+          "name": "Connecticut",
+          "cities": [
+            "Bridgeport",
+            "New Haven",
+            "Hartford",
+            "Stamford",
+            "Waterbury"
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Iowa",
+          "cities": [
+            "Des Moines",
+            "Cedar Rapids",
+            "Davenport",
+            "Sioux City",
+            "Iowa City"
+          ]
+        },
+        {
+          "id": 31,
+          "name": "Utah",
+          "cities": [
+            "Salt Lake City",
+            "West Valley City",
+            "Provo",
+            "West Jordan",
+            "Orem"
+          ]
+        },
+        {
+          "id": 32,
+          "name": "Mississippi",
+          "cities": [
+            "Jackson",
+            "Gulfport",
+            "Southaven",
+            "Hattiesburg",
+            "Biloxi"
+          ]
+        },
+        {
+          "id": 33,
+          "name": "Arkansas",
+          "cities": [
+            "Little Rock",
+            "Fort Smith",
+            "Fayetteville",
+            "Springdale",
+            "Jonesboro"
+          ]
+        },
+        {
+          "id": 34,
+          "name": "Kansas",
+          "cities": [
+            "Wichita",
+            "Overland Park",
+            "Kansas City",
+            "Topeka",
+            "Olathe"
+          ]
+        },
+        {
+          "id": 35,
+          "name": "New Mexico",
+          "cities": [
+            "Albuquerque",
+            "Las Cruces",
+            "Rio Rancho",
+            "Santa Fe",
+            "Roswell"
+          ]
+        },
+        {
+          "id": 36,
+          "name": "Nebraska",
+          "cities": ["Omaha", "Lincoln", "Bellevue", "Grand Island", "Kearney"]
+        },
+        {
+          "id": 37,
+          "name": "West Virginia",
+          "cities": [
+            "Charleston",
+            "Huntington",
+            "Morgantown",
+            "Parkersburg",
+            "Wheeling"
+          ]
+        },
+        {
+          "id": 38,
+          "name": "Idaho",
+          "cities": ["Boise", "Nampa", "Meridian", "Idaho Falls", "Pocatello"]
+        },
+        {
+          "id": 39,
+          "name": "Hawaii",
+          "cities": ["Honolulu", "Pearl City", "Hilo", "Kailua", "Waipahu"]
+        },
+        {
+          "id": 40,
+          "name": "New Hampshire",
+          "cities": ["Manchester", "Nashua", "Concord", "Derry", "Dover"]
+        },
+        {
+          "id": 41,
+          "name": "Maine",
+          "cities": [
+            "Portland",
+            "Lewiston",
+            "Bangor",
+            "South Portland",
+            "Auburn"
+          ]
+        },
+        {
+          "id": 42,
+          "name": "Rhode Island",
+          "cities": [
+            "Providence",
+            "Warwick",
+            "Cranston",
+            "Pawtucket",
+            "East Providence"
+          ]
+        },
+        {
+          "id": 43,
+          "name": "Montana",
+          "cities": ["Billings", "Missoula", "Great Falls", "Bozeman", "Butte"]
+        },
+        {
+          "id": 44,
+          "name": "Delaware",
+          "cities": ["Wilmington", "Dover", "Newark", "Middletown", "Smyrna"]
+        },
+        {
+          "id": 45,
+          "name": "Alaska",
+          "cities": ["Anchorage", "Fairbanks", "Juneau", "Sitka", "Ketchikan"]
+        },
+        {
+          "id": 46,
+          "name": "Wyoming",
+          "cities": [
+            "Cheyenne",
+            "Casper",
+            "Laramie",
+            "Gillette",
+            "Rock Springs"
+          ]
+        },
+        {
+          "id": 47,
+          "name": "North Carolina",
+          "cities": [
+            "Charlotte",
+            "Raleigh",
+            "Greensboro",
+            "Durham",
+            "Winston-Salem"
+          ]
+        },
+        {
+          "id": 48,
+          "name": "South Dakota",
+          "cities": [
+            "Sioux Falls",
+            "Rapid City",
+            "Aberdeen",
+            "Brookings",
+            "Watertown"
+          ]
+        },
+        {
+          "id": 49,
+          "name": "Vermont",
+          "cities": [
+            "Burlington",
+            "Essex",
+            "South Burlington",
+            "Colchester",
+            "Rutland"
+          ]
+        },
+        {
+          "id": 50,
+          "name": "District of Columbia",
+          "cities": ["Washington, D.C."]
+        }
+      ]
+    }
+  ]
+}
